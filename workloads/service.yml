@@ -2,7 +2,6 @@ kind: Service
 apiVersion: v1
 metadata:
   name: nginx-service
-  namespace: devops
 spec:
   type: NodePort
   selector:
