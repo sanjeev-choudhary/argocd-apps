@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    #path: workloads/
+    path: workloads/
     repoURL: https://github.com/sanjeev-choudhary/argocd-apps.git
     targetRevision: HEAD
   syncPolicy:
