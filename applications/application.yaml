@@ -7,9 +7,9 @@ spec:
   destination:
     namespace: nginx-app
     server: https://kubernetes.default.svc
-  project: nginx-project
+  project: default
   source:
-    path: nginx-app/
+    path: workloads/
     repoURL: https://github.com/sanjeev-choudhary/argocd-apps.git
     targetRevision: HEAD
   syncPolicy:
