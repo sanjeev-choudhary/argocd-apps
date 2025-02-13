@@ -11,6 +11,6 @@ spec:
     name: in-cluster
   project: default
   source:
-    path: apps-of-apps
+    path: app-of-apps
     repoURL: https://github.com/sanjeev-choudhary/argocd-apps.git
     targetRevision: HEAD
